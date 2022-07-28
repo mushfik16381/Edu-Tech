@@ -71,10 +71,6 @@ nav ul li a{
     height: 100%;
     width: 100%;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 #banner-part .overlay h1{
     font-weight: 600;
@@ -92,4 +88,35 @@ nav ul li a{
 .banner-btn{
     color: var(--text-white);
     background: var(--button);
+}
+/* ----------------------
+       course part     
+----------------------- */
+#courses-part{
+    margin-bottom: 60px;
+}
+.title-part h2{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.title-part p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+#courses-part .text h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--text-dark-medium);
+}
+#courses-part .text p{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-dark-light);
+}
+.price{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--button);
 }
