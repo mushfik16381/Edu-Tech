@@ -208,12 +208,17 @@ nav ul li a{
             padding: 4px 14px;
         }
         #banner-part .overlay h1 {
-            font-size: 32px;
-            line-height: 35px;
+            font-size: 30px;
+            line-height: 30px;
+            margin-top: 20px;
         }
         #banner-part .overlay p {
-            padding: 20px 0;
-            font-size: 14px;
+            padding: 15px 0;
+            font-size: 13px;
+            line-height: 15px;
+        }
+        #banner-part .button{
+            margin-bottom: 20px;
         }
         .title-part h2 {
             font-size: 35px;
