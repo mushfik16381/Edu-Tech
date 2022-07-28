@@ -199,3 +199,201 @@ nav ul li a{
     footer .social-icon a{
         font-size: 35px;
     }
+
+
+
+    @media screen and (max-width: 576px){
+        .button {
+            font-size: 16px;
+            padding: 4px 14px;
+        }
+        #banner-part .overlay h1 {
+            font-size: 32px;
+            line-height: 35px;
+        }
+        #banner-part .overlay p {
+            padding: 20px 0;
+            font-size: 14px;
+        }
+        .title-part h2 {
+            font-size: 35px;
+            line-height: 35px;
+        }
+        .title-part p {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            width: 90% !important;
+        }
+        .course {
+            display: block !important;
+            text-align: center;
+            border: none !important;
+        }
+        #courses-part .text{
+            padding-left: 0 !important;
+        }
+        #courses-part .text h3 {
+            padding-top: 15px;
+        }
+        #explore-part .title-part h2{
+            padding-top: 0 !important;
+        }
+        #explore-part .ex-btn {
+            padding-top: 2rem !important;
+            text-align: center;
+            padding-bottom: 2rem !important;
+        }
+        #reg-part .reg{
+            display: block !important;
+            text-align: center;
+        }
+        #reg-part .title-part {
+            width: 100% !important;
+            padding-bottom: 15px;
+        }
+        #reg-part .title-part p{
+            width: 100% !important;
+        }
+        #success-part .title-part{
+            text-align: center;
+        }
+        #success-part h2{
+            width: 100%!important;
+        }
+        #success-part p{
+            width: 100%!important;
+        }
+        #success-part .success{
+            display: block !important;
+        }
+        #success-part .success-card  {
+            width: 90% !important;
+            margin: 0 auto !important;
+            margin-bottom: 20px !important;
+        }
+        #success-part .text{
+            text-align: center;
+        }
+        .faq {
+            width: 100% !important;
+        }
+        #company-part{
+            display: none;
+        }
+        footer {
+            padding: 50px 0;
+        }
+        footer h2 {
+            font-size: 35px;
+            font-weight: 600;
+        }
+        footer p {
+            font-size: 14px;
+            line-height: 23px;
+        }
+        footer a {
+            padding: 0 8px;
+            font-size: 14px;
+        }
+        footer .social-icon {
+            padding-top: 14px;
+        }
+    }
+    @media (min-width: 577px) and (max-width: 991px){
+        .button {
+            font-size: 18px;
+            padding: 8px 16px;
+        }
+        #banner-part .overlay h1 {
+            font-size: 36px;
+            line-height: 35px;
+        }
+        #banner-part .overlay p {
+            padding: 20px 0;
+            font-size: 16px;
+        }
+        .title-part h2 {
+            font-size: 40px;
+            line-height: 48px;
+        }
+        .title-part p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            width: 90% !important;
+        }
+        
+        #explore-part .title-part h2{
+            padding-top: 0 !important;
+        }
+        #explore-part .ex-btn {
+            padding-top: 2rem !important;
+            text-align: center;
+            padding-bottom: 2rem !important;
+        }
+        #explore-part img{
+            height: 100% !important;
+        }
+        #explore-part .title-part{
+            padding-top: 10px !important;
+        }
+        #explore-part .title-part h2 {
+            font-size: 25px !important;
+            line-height: 34px;
+        }
+        #explore-part .title-part p {
+            font-size: 12px !important;
+        }
+        #explore-part .title-part .none {
+            display: none;
+        }
+        #reg-part .reg{
+            display: block !important;
+            text-align: center;
+        }
+        #reg-part .title-part {
+            width: 100% !important;
+            padding-bottom: 15px;
+        }
+        #reg-part .title-part p{
+            width: 100% !important;
+        }
+        #success-part .title-part h2 {
+            font-size: 42px;
+            line-height: 48px;
+            width: 100% !important;
+        }
+        #success-part .success-card  {
+            width: 90% !important;
+            margin: 0 auto !important;
+            margin-bottom: 20px !important;
+        }
+        #success-part .text{
+            text-align: center;
+        }
+        .faq {
+            width: 100% !important;
+        }
+        #company-part{
+            display: none;
+        }
+        footer {
+            padding: 50px 0;
+        }
+        footer h2 {
+            font-size: 35px;
+            font-weight: 600;
+        }
+        footer p {
+            font-size: 14px;
+            line-height: 23px;
+        }
+        footer a {
+            padding: 0 8px;
+            font-size: 14px;
+        }
+        footer .social-icon {
+            padding-top: 14px;
+        }
+    }
