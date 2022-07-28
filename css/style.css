@@ -12,7 +12,6 @@ body{
     --text-white: #FFFFFF;
     --text-white-light: #F4F4F4;
     --button: #289BDE;
-
 }
 ul,ol{
     list-style: none;
@@ -119,4 +118,30 @@ nav ul li a{
     font-size: 18px;
     font-weight: 600;
     color: var(--button);
+}
+/* ----------------------
+       explore part     
+----------------------- */
+
+#explore-part{
+    margin-bottom: 60px;
+}
+/* ----------------------
+       Reg part     
+----------------------- */
+#reg-part{
+    margin-bottom: 60px;
+}
+#reg-part .reg{
+    background-color: var(--button);
+    padding: 40px 50px;
+    border-radius: 5px;
+}
+.reg-btn{
+    color: var(--button);
+    background-color: var(--text-white);
+}
+.reg-btn:hover{
+    background-color: #226e9b;
+    color: var(--text-white);
 }
